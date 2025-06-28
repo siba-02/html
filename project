@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Resume Project Page</title>
+  <link rel="stylesheet" href="style.css">
+  <!--
+    body { font-family: Arial, sans-serif; padding: 20px; background-color: #f4f4f4; }
+    h1, h2 { color: #333; }
+    table, th, td { border: 1px solid #000; border-collapse: collapse; padding: 8px; }
+    table { width: 100%; margin-top: 20px; }
+    form { background: #fff; padding: 15px; border-radius: 5px; max-width: 400px; }
+    label { display: block; margin-top: 10px; }
+    input, textarea { width: 100%; padding: 8px; margin-top: 5px; }
+    iframe { margin-top: 20px; }
+  -->
+</head>
+<body>
+
+  <h1>My Resume Project Page</h1>
+
+  <h2>1. Ordered Lists (All Types) and One Unordered List</h2>
+  <h3>Type 1: Decimal</h3>
+  <ol type="1">
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JavaScript</li>
+  </ol>
+
+  <h3>Type 2: Uppercase Letters</h3>
+  <ol type="A">
+    <li>Frontend</li>
+    <li>Backend</li>
+    <li>Database</li>
+  </ol>
+
+  <h3>Type 3: Lowercase Letters</h3>
+  <ol type="a">
+    <li>Team Lead</li>
+    <li>Project Manager</li>
+    <li>Developer</li>
+  </ol>
+
+  <h3>Type 4: Roman Numerals (Uppercase)</h3>
+  <ol type="I">
+    <li>Introduction</li>
+    <li>Objectives</li>
+    <li>Conclusion</li>
+  </ol>
+
+  <h3>Unordered List</h3>
+  <ul>
+    <li>Creative</li>
+    <li>Hardworking</li>
+    <li>Team Player</li>
+  </ul>
+
+  <h2>2. Table with Heading, Caption, and Column Span</h2>
+  <table>
+    <caption><strong>Project Experience</strong></caption>
+    <tr>
+      <th colspan="3">Project Title</th>
+      <th>Year</th>
+    </tr>
+    <tr>
+      <td colspan="3">Online Portfolio Website</td>
+      <td>2024</td>
+    </tr>
+    <tr>
+      <td colspan="3">E-commerce Web App</td>
+      <td>2023</td>
+    </tr>
+  </table>
+
+  <h2>3. Contact Me Form</h2>
+  <form action="#" method="post">
+    <label for="name">Full Name:</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="email">Email Address:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="subject">Subject:</label>
+    <input type="text" id="subject" name="subject">
+
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" rows="4" required></textarea>
+
+    <input type="submit" value="Send Message">
+  </form>
+
+  <h2>4. Embedded Video using iFrame</h2>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/Qw6cyRwJ9fI?si=2__lF7SbKBHXbsI5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+</body>
+</html>
